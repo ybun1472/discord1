@@ -1,5 +1,6 @@
 import discord, asyncio
 import datetime
+import os
 
 token = "Njg1MzIyMzQ2MTE4MjUwNTA4.XmHCLA.6Zl3pyc5NP9n7aOZaS0tlrusaCs"
 client = discord.Client()
@@ -73,5 +74,6 @@ async def on_message(message):
     role = discord.utils.get(message.guild.roles, name="뮤트")
     await author.remove_roles(role)
 
-    
-client.run("Njg1MzIyMzQ2MTE4MjUwNTA4.XmHCLA.6Zl3pyc5NP9n7aOZaS0tlrusaCs")
+
+access_token = os.environ["BOT_TOKEN"  
+client.run(access_token)
