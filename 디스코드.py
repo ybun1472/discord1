@@ -2,7 +2,6 @@ import discord, asyncio
 import datetime
 import os
 
-token = "Njg1MzIyMzQ2MTE4MjUwNTA4.XmHCLA.6Zl3pyc5NP9n7aOZaS0tlrusaCs"
 client = discord.Client()
 
 @client.event
